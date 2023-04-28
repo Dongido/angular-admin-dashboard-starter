@@ -25,9 +25,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/scss/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "chart.js",
+              "@coreui/chartjs/dist/js/coreui-chartjs.js"
+            ]
           },
           "configurations": {
             "production": {
